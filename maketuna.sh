@@ -1,0 +1,8 @@
+#!/usr/local/bin/bash
+
+
+export ARCH=arm
+export SUBARCH=arm
+export CROSS_COMPILE=~/android/system/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin/arm-eabi-
+make tuna_pe_defconfig
+make -j8

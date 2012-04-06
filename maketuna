@@ -1,5 +1,5 @@
-#!/usr/local/bin/bash
-
+#!/bin/sh
+# kernel compile "actngrezy"
 
 export ARCH=arm
 export SUBARCH=arm
